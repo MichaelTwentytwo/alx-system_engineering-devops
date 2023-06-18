@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f | xargs rm
+find -type f | xargs rm -r

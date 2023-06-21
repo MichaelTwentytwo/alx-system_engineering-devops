@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -asR | find -type f -name "*.gif" | rev | cut -f 1 -d "/"| rev | tr -d ".gif"
